@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "ESNext",
+        "baseUrl": ".",
+        "outDir": "./dist",
+        "esModuleInterop": true,
+        "declaration": true,
+        "moduleResolution": "node",
+    },
+    "include": [
+        "./src/**/*.ts",
+        "./magic-string-zr/**/*.ts",
+        "importMeta.d.ts"
+    ],
+    "exclude": [
+        "node_modules",
+    ]
+}
